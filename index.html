@@ -2,127 +2,139 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  >
 
-    <title>Xiaoyan Zhang</title>
-    <link rel="icon" type="image/x-icon" href="assets/goose.ico">
-  
-    <script>
-        function showSecondImage() {
-            var button = document.getElementById('button');
-            var profileImage = document.getElementById('profile');
-    
-            button.style.display = 'none';
-            profileImage.src = 'assets/img/profile.jpg';
-        }
-    </script>
-<!--     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5VFYVPNDZ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <title>Xiaoyan Zhang</title>
+  <link rel="icon" type="image/x-icon" href="assets/goose.ico">
 
-        gtag('config', 'G-W5VFYVPNDZ');
-    </script> -->
+  <script>
+    function showSecondImage() {
+      var button = document.getElementById('button');
+      var profileImage = document.getElementById('profile');
 
+      if (button && profileImage) {
+        button.style.display = 'none';
+        profileImage.src = 'assets/img/profile.jpg';
+      }
+    }
+  </script>
 
+  <!-- Google Analytics
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5VFYVPNDZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W5VFYVPNDZ');
+  </script>
+  -->
 </head>
 
 <body>
-    <div class="container">
-        <div class="row" style="margin-top: 3em;">
-            <div class="col-sm-12" style="margin-bottom: 1em;">
-            <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">Xiaoyan</span> Zhang</h3>
-            </div>
-            <br>
-            <div class="col-md-8" style="">
-                
-                <p>I am a recent graduate from Anhui University. 
-                  <!-- In 2023, I participated in a summer program at Nanyang Technological University, Singapore, which broadened my international academic experience.  -->
-                  Since Fall 2024, I have been collaborating with the Video and Image Processing Laboratory (VIPER), where I work on continual learning and food recognition.
-                  In Spring 2026, I will continue my studies at the University of Michigan, focusing on multi-agent systems, generative models, and large-scale representation learning.
-                </p>
-                <!-- <p>
-                  My research interests include visual recognition, food understanding, and health-related domains.     
-                </p> -->
-               
-                <p>
-                  Email: <a href="mailto:xyzaxis@umich.edu">xyzaxis AT umich.edu</a>
-                </p>
+  <div class="container">
+    <div class="row" style="margin-top: 3em;">
+      <div class="col-sm-12" style="margin-bottom: 1em;">
+        <h3 class="display-4" style="text-align: center;">
+          <span style="font-weight: bold;">Xiaoyan</span> Zhang
+        </h3>
+      </div>
 
-                <p>
-                  <!-- <a href="assets/pdf/CV.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a> -->
-                  <a href="https://scholar.google.com.hk/citations?user=eKzyd0YAAAAJ&hl=zh-CN" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Google Scholar</a>
-                </p>
-              
-<!--                 <p>
-                    <a href="https://scholar.google.com/citations?user=HmQECwsAAAAJ&hl=en&oi=ao" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Google Scholar</a>
-                    <a href="https://www.linkedin.com/in/zhaoying-pan-296942153/" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
-                    <a href="https:" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
-                </p> -->
-    
+      <div class="col-md-8">
+        <p>
+          I am a recent graduate from Anhui University.
+          Since Fall 2024, I have been collaborating with the Video and Image Processing Laboratory (VIPER),
+          where I work on continual learning and food recognition.
+          In Fall 2026, I will continue my studies at the University of Michigan, focusing on multi-agent systems,
+          generative models, and large-scale representation learning.
+        </p>
+
+        <p>
+          Email: <a href="mailto:xyzaxis@umich.edu">xyzaxis AT umich.edu</a>
+        </p>
+
+        <p>
+          <a href="https://scholar.google.com.hk/citations?user=eKzyd0YAAAAJ&hl=zh-CN" target="_blank" style="margin-right: 15px;">
+            <i class="fa-solid fa-book"></i> Google Scholar
+          </a>
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <img
+          id="profile"
+          src="assets/img/xiaoyan_zhang_picture_2.jpg"
+          class="img-thumbnail"
+          width="230"
+          alt="Xiaoyan Zhang Picture"
+        >
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 3em;">
+      <div class="col-sm-10">
+        <h4>Education</h4>
+
+        <div style="margin-bottom: 3em;">
+          <div class="row">
+            <div class="col-sm-2">
+              <img src="assets/img/ahu.png" alt="AHU" width="120" height="120">
             </div>
-<!--             <div class="col-md-4" style="">
-                <img id="profile" src="assets/img/goose.jpg" class="img-thumbnail" width="280px" alt="Profile picture" />
-                <button id="button" onclick="showSecondImage();" style="border: none; margin-top: 5px;">Show My Photo!</button>
-            </div> -->
-          <div class="col-md-4">
-            <img id="profile" src="assets/img/xiaoyan_zhang_picture_2.jpg" class="img-thumbnail" width="230px" alt="Xiaoyan Zhang Picture" />
+            <div class="col-sm-10">
+              <b>Anhui University</b> <span style="float: right;">2021–2025</span>
+              <br><span style="font-style: italic;">Bachelor of Engineering</span>
+              <br>GPA: 4.34/5.00, Rank: 1/251
+            </div>
           </div>
-
         </div>
 
+      </div>
+    </div>
 
-        <div class="row" style="margin-top: 3em;">
-            <div class="col-sm-10" style="">
-                <h4>Education</h4>
+    <div class="row" style="margin-top: 3em;">
+      <div class="col-sm-12">
+        <h4>Selected Publications</h4>
 
+        <div style="margin-bottom: 3em;">
+          <div class="row">
+            <div class="col-sm-12">
+              <a href="https://arxiv.org/abs/2602.07564" target="_blank" style="font-weight: bold;">
+                SIGMA: Selective-Interleaved Generation with Multi-Attribute Tokens
+              </a>
+              <br>Xiaoyan Zhang, Zechen Bai, Haofan Wang, Yiren Song
+              <br><span style="font-style: italic;">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</span>
+              <br>
+              <a href="https://arxiv.org/abs/2602.07564" target="_blank">Paper</a>
+              / <a href="https://github.com/auihund/SIGMA" target="_blank">Code</a>
+              / <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapsezhang2026sigma"
+                  aria-expanded="false"
+                  aria-controls="collapsezhang2026sigma"
+                  style="margin-left: -6px; margin-top: -2px;"
+                >
+                  Expand bibtex
+                </button>
 
-                <!-- <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-2"><img src="assets/img/ntu.png" alt="NTU" width="140" height="70"></div><div class="col-sm-10">
-                    <b>Nanyang Technological University</b><span style="float: right;">July 2023-August 2023</span>
-                    <br>2023 Summer School Program
-                    <br>The
-                </div> </div> </div> -->
-                
-                <div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-2"><img src="assets/img/ahu.png" alt="AHU" width="120" height="120"></div><div class="col-sm-10">
-                    <b>Anhui University</b> <span style="float: right;">2021-2025</span>
-                    <br><span style="font-style: italic;">Bachelor of Engineering</span>
-                    <br>GPA: 4.34/5.00, Rank: 1/251 
-                </div> </div> </div>
-            </div>
-        </div>
-
-        <div class="row" style="margin-top: 3em;">
-            <div class="col-sm-12" style="">
-                <h4>Selected Publications</h4>
-
-
-
-
-              <!-- Representative Projects -->
-
-<div style="margin-bottom: 3em;">
-  <div class="row">
-    <div class="col-sm-12">
-      <a style="font-weight: bold;">SIGMA: Selective-Interleaved Generation with Multi-Attribute Tokens</a>
-      <br>Xiaoyan Zhang, Zechen Bai, Haofan Wang, Yiren Song
-      <br><span style="font-style: italic;">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</span>
-      <br>
-      <a href="https://arxiv.org/abs/2602.07564" target="_blank">Paper</a>
-      / <a href="https://github.com/auihund/SIGMA" target="_blank">Code</a>
-      / <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsezhang2026sigma" aria-expanded="false" aria-controls="collapsezhang2026sigma" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button>
-
-      <div class="collapse" id="collapsezhang2026sigma">
-        <div class="card card-body">
-          <pre><code>@misc{zhang2026sigmaselectiveinterleavedgenerationmultiattribute,
+              <div class="collapse" id="collapsezhang2026sigma">
+                <div class="card card-body">
+<pre><code>@misc{zhang2026sigmaselectiveinterleavedgenerationmultiattribute,
   title={SIGMA: Selective-Interleaved Generation with Multi-Attribute Tokens},
   author={Xiaoyan Zhang and Zechen Bai and Haofan Wang and Yiren Song},
   year={2026},
@@ -131,29 +143,42 @@
   primaryClass={cs.CV},
   url={https://arxiv.org/abs/2602.07564},
 }</code></pre>
+                </div>
+              </div>
+
+              <br>
+              SIGMA introduces a selective-interleaved generation framework with multi-attribute tokens,
+              enabling more controllable and compositional visual generation across diverse attributes.
+            </div>
+          </div>
         </div>
-      </div>
 
-      <br>
-      SIGMA introduces a selective-interleaved generation framework with multi-attribute tokens, enabling more controllable and compositional visual generation across diverse attributes.
-    </div>
-  </div>
-</div>
+        <div style="margin-bottom: 3em;">
+          <div class="row">
+            <div class="col-sm-12">
+              <a href="https://arxiv.org/abs/2603.10237" target="_blank" style="font-weight: bold;">
+                One Adapter for All: Towards Unified Representation in Step-Imbalanced Class-Incremental Learning
+              </a>
+              <br>Xiaoyan Zhang, Jiangpeng He
+              <br><span style="font-style: italic;">arXiv preprint</span>
+              <br>
+              <a href="https://arxiv.org/abs/2603.10237" target="_blank">Paper</a>
+              / <a href="https://github.com/xiaoyanzhang1/One-A" target="_blank">Code</a>
+              / <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapsezhang2026onea"
+                  aria-expanded="false"
+                  aria-controls="collapsezhang2026onea"
+                  style="margin-left: -6px; margin-top: -2px;"
+                >
+                  Expand bibtex
+                </button>
 
-<div style="margin-bottom: 3em;">
-  <div class="row">
-    <div class="col-sm-12">
-      <a style="font-weight: bold;">One Adapter for All: Towards Unified Representation in Step-Imbalanced Class-Incremental Learning</a>
-      <br>Xiaoyan Zhang, Jiangpeng He
-      <br><span style="font-style: italic;">arXiv preprint</span>
-      <br>
-      <a href="https://arxiv.org/abs/2603.10237" target="_blank">Paper</a>
-      / <a href="https://github.com/xiaoyanzhang1/One-A" target="_blank">Code</a>
-      / <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsezhang2026onea" aria-expanded="false" aria-controls="collapsezhang2026onea" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button>
-
-      <div class="collapse" id="collapsezhang2026onea">
-        <div class="card card-body">
-          <pre><code>@misc{zhang2026adapterallunifiedrepresentation,
+              <div class="collapse" id="collapsezhang2026onea">
+                <div class="card card-body">
+<pre><code>@misc{zhang2026adapterallunifiedrepresentation,
   title={One Adapter for All: Towards Unified Representation in Step-Imbalanced Class-Incremental Learning},
   author={Xiaoyan Zhang and Jiangpeng He},
   year={2026},
@@ -162,184 +187,242 @@
   primaryClass={cs.CV},
   url={https://arxiv.org/abs/2603.10237},
 }</code></pre>
+                </div>
+              </div>
+
+              <br>
+              One-A presents a unified adapter merging framework for step-imbalanced class-incremental learning,
+              improving representation consistency while maintaining efficient deployment with a single merged adapter.
+            </div>
+          </div>
         </div>
+
+        <!--
+        <div style="margin-bottom: 3em;">
+          <div class="row">
+            <div class="col-sm-12">
+              <a href="https://arxiv.org/abs/2307.00183" target="_blank" style="font-weight: bold;">
+                Long-Tailed Continual Learning For Visual Food Recognition
+              </a>
+              <br>Jiangpeng He, <span style="font-weight: bold;">Xiaoyan Zhang</span>, Luotao Lin, Jack Ma, Heather A. Eicher-Miller, Fengqing Zhu
+              <br><span style="font-style: italic;">IEEE Transactions on Multimedia (TMM)</span>
+              <br>
+              <a href="https://arxiv.org/pdf/2307.00183" target="_blank">Paper</a>
+              / <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapsehe2025longtailedcontinuallearningvisual"
+                  aria-expanded="false"
+                  aria-controls="collapsehe2025longtailedcontinuallearningvisual"
+                  style="margin-left: -6px; margin-top: -2px;"
+                >
+                  Expand bibtex
+                </button>
+
+              <div class="collapse" id="collapsehe2025longtailedcontinuallearningvisual">
+                <div class="card card-body">
+<pre><code>@misc{he2025longtailedcontinuallearningvisual,
+  title={Long-Tailed Continual Learning For Visual Food Recognition},
+  author={Jiangpeng He and Xiaoyan Zhang and Luotao Lin and Jack Ma and Heather A. Eicher-Miller and Fengqing Zhu},
+  year={2025},
+  eprint={2307.00183},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2307.00183},
+}</code></pre>
+                </div>
+              </div>
+
+              <br>
+              We provide the VFN186 dataset, along with a novel framework that enhances generalization on long-tailed
+              food distribution using knowledge distillation and a CAM-CutMix-based augmentation technique.
+            </div>
+          </div>
+        </div>
+        -->
+
+        <!--
+        <div style="margin-bottom: 3em;">
+          <div class="row">
+            <div class="col-sm-12">
+              <a href="https://arxiv.org/pdf/2411.10492" target="_blank" style="font-weight: bold;">
+                MFP3D: Monocular Food Portion Estimation Leveraging 3D Point Clouds (Oral)
+              </a>
+              <br>Jinge Ma, <span style="font-weight: bold;">Xiaoyan Zhang</span>, Gautham Vinod, Siddeshwar Raghavan, Jiangpeng He, Fengqing Zhu
+              <br><span style="font-style: italic;">International Conference on Pattern Recognition (ICPR) MADiMa workshop, 2024</span>
+              <br>
+              <a href="https://arxiv.org/pdf/2411.10492" target="_blank">Paper</a>
+              / <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapsema2024mfp3d"
+                  aria-expanded="false"
+                  aria-controls="collapsema2024mfp3d"
+                  style="margin-left: -6px; margin-top: -2px;"
+                >
+                  Expand bibtex
+                </button>
+
+              <div class="collapse" id="collapsema2024mfp3d">
+                <div class="card card-body">
+<pre><code>@article{ma2024mfp3d,
+  title={MFP3D: Monocular Food Portion Estimation Leveraging 3D Point Clouds},
+  author={Ma, Jinge and Zhang, Xiaoyan and Vinod, Gautham and Raghavan, Siddeshwar and He, Jiangpeng and Zhu, Fengqing},
+  journal={arXiv preprint arXiv:2411.10492},
+  year={2024}
+}</code></pre>
+                </div>
+              </div>
+
+              <br>
+              We propose MFP3D, a new framework for accurate food portion estimation from a single image.
+              It uses 3D reconstruction and feature extraction to estimate food volume and energy content,
+              showing improved accuracy on the MetaFood3D dataset compared to existing approaches.
+            </div>
+          </div>
+        </div>
+        -->
+
+        <!--
+        <div style="margin-bottom: 3em;">
+          <div class="row">
+            <div class="col-sm-12">
+              <a href="https://link.springer.com/chapter/10.1007/978-981-97-8496-7_36" target="_blank" style="font-weight: bold;">
+                Learning Frequency and Structure in UDA for Medical Object Detection
+              </a>
+              <br>Liwen Wang, <span style="font-weight: bold;">Zhang Xiaoyan</span>, et al.
+              <br><span style="font-style: italic;">Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2024</span>
+              <br>
+              <a href="https://link.springer.com/chapter/10.1007/978-981-97-8496-7_36" target="_blank">Paper</a>
+              / <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseprcv2024"
+                  aria-expanded="false"
+                  aria-controls="collapseprcv2024"
+                  style="margin-left: -6px; margin-top: -2px;"
+                >
+                  Expand bibtex
+                </button>
+
+              <div class="collapse" id="collapseprcv2024">
+                <div class="card card-body">
+<pre><code>@InProceedings{10.1007/978-981-97-8496-7_36,
+  author="Wang, Liwen and Zhang, Xiaoyan and He, Guannan and Tan, Ying and Li, Shengli and Pu, Bin and Jin, Zhe and Sha, Wen and Dong, Xingbo",
+  editor="Lin, Zhouchen and Cheng, Ming-Ming and He, Ran and Ubul, Kurban and Silamu, Wushouer and Zha, Hongbin and Zhou, Jie and Liu, Cheng-Lin",
+  title="Learning Frequency and Structure in UDA for Medical Object Detection",
+  booktitle="Pattern Recognition and Computer Vision",
+  year="2025",
+  publisher="Springer Nature Singapore",
+  address="Singapore",
+  pages="518--532"
+}</code></pre>
+                </div>
+              </div>
+
+              <br>
+              We proposed a framework for cross-domain imaging structure analysis to address domain gaps between different data sources.
+            </div>
+          </div>
+        </div>
+        -->
+
       </div>
+    </div>
 
-      <br>
-      One-A presents a unified adapter merging framework for step-imbalanced class-incremental learning, improving representation consistency while maintaining efficient deployment with a single merged adapter.
+    <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
+      <div class="col-sm-12">
+        <h4>Teaching Experience</h4>
+        <ul>
+          <li>
+            <b>Fall 2024: ZX52340 Java Technology and Its Application (Practice)</b>,
+            <span style="font-style: italic;">Teaching Assistant</span>
+            <span style="float: right;">Anhui University</span>
+          </li>
+          <li>
+            <b>Fall 2024: ZJ52014 Introduction to Artificial Intelligence</b>,
+            <span style="font-style: italic;">Teaching Assistant</span>
+            <span style="float: right;">Anhui University</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
+      <div class="col-sm-12">
+        <h4>Awards</h4>
+        <ul>
+          <li>
+            <b>Outstanding Graduate of Anhui Province</b>,
+            <span style="font-style: italic;">Ministry of Education of Anhui Province</span>
+            <span style="float: right;">2025</span>
+          </li>
+          <li>
+            <b>National Scholarship</b>,
+            <span style="font-style: italic;">Ministry of Education of the People's Republic of China</span>
+            <span style="float: right;">2024</span>
+          </li>
+          <li>
+            <b>Pacemaker to Merit Student</b>,
+            <span style="font-style: italic;">Anhui University</span>
+            <span style="float: right;">2022, 2023, 2024</span>
+          </li>
+          <li>
+            <b>Merit Student</b>,
+            <span style="font-style: italic;">Anhui University</span>
+            <span style="float: right;">2022, 2023, 2024</span>
+          </li>
+          <li>
+            <b>Song Qingling Future Scholarship</b> (0.05%),
+            <span style="font-style: italic;">The China Song Qingling Foundation</span>
+            <span style="float: right;">2024</span>
+          </li>
+          <li>
+            <b>Excellent Student Scholarship</b>,
+            <span style="font-style: italic;">Anhui University</span>
+            <span style="float: right;">2023</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 2em; margin-bottom: 2em;">
+      <div class="col-sm-12 text-center">
+        <script
+          type="text/javascript"
+          id="clustrmaps"
+          src="//cdn.clustrmaps.com/map_v2.js?cl=cdc0b0&w=300&t=tt&d=XsaXIdSbwmNV33O0rzrWJ8b6Pj3KX4m36bLU7Nm9TKM&co=ffffff&cmn=6ca6cd&cmo=828282&ct=363636">
+        </script>
+      </div>
     </div>
   </div>
-</div>
 
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous">
+  </script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous">
+  </script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous">
+  </script>
 
-<!-- <div style="margin-bottom: 3em;"> 
-  <div class="row">
-    <div class="col-sm-3">
-      <img src="assets/img/projects/TMM_dataset.png" class="img-fluid img-thumbnail" alt="Project image">
-    </div>
-        <div class="col-sm-9">
-          <a style="font-weight: bold";>Long-Tailed Continual Learning For Visual Food Recognition</a>
-          <br>Jiangpeng He, <span style="font-weight: bold";>Xiaoyan Zhang</span>, Luotao Lin, Jack Ma, Heather A. Eicher-Miller, Fengqing Zhu.
-          <br><span style="font-style: italic;">IEEE Transactions on Multimedia (TMM)</span>
-          <br><a href="https://arxiv.org/pdf/2307.00183" target="_blank">Paper</a>
-<!--            / <a href="https://github.com/xiaoyuan1996/SemanticLocalizationMetrics" target="_blank">Code</a>  -->
-          / <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsehe2025longtailedcontinuallearningvisual" aria-expanded="false" aria-controls="collapsehe2025longtailedcontinuallearningvisual" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button>
-            <div class="collapse" id="collapsehe2025longtailedcontinuallearningvisual">
-                <div class="card card-body">
-                    <pre><code>@misc{he2025longtailedcontinuallearningvisual,
-                        title={Long-Tailed Continual Learning For Visual Food Recognition}, 
-                        author={Jiangpeng He and Xiaoyan Zhang and Luotao Lin and Jack Ma and Heather A. Eicher-Miller and Fengqing Zhu},
-                        year={2025},
-                        eprint={2307.00183},
-                        archivePrefix={arXiv},
-                        primaryClass={cs.CV},
-                        url={https://arxiv.org/abs/2307.00183}, 
-                  }</code></pre>
-                </div>
-            </div>
-        <br> We provide the VFN186 dataset, along with a novel framework that enhances generalization on long-tailed food distribution 
-          using knowledge distillation and a CAM-CutMix-based augmentation technique.
-      </div> 
-  </div> 
-</div> -->
-
-
-
-
-      
-<!-- <div style="margin-bottom: 3em;"> 
-  <div class="row">
-    <div class="col-sm-3">
-      <img src="assets/img/projects/MadiMa_metafood_image_dist.png" class="img-fluid img-thumbnail" alt="Project image">
-    </div>
-        <div class="col-sm-9">
-          <a style="font-weight: bold";>MFP3D: Monocular Food Portion Estimation Leveraging 3D Point Clouds (Oral)</a>
-          <br>Jinge Ma, <span style="font-weight: bold";>Xiaoyan Zhang</span>, Gautham Vinod, Siddeshwar Raghavan, Jiangpeng He, Fengqing Zhu.
-          <br><span style="font-style: italic;">International Conference on Pattern Recognition (ICPR) MADiMa workshop</span>, 2024
-          <br><a href="https://arxiv.org/pdf/2411.10492" target="_blank">Paper</a>
-<!--            / <a href="https://github.com/xiaoyuan1996/SemanticLocalizationMetrics" target="_blank">Code</a>  -->
-          / <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsema2024mfp3d" aria-expanded="false" aria-controls="collapsema2024mfp3d" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button>
-            
-            <div class="collapse" id="collapsema2024mfp3d">
-                <div class="card card-body">
-                    <pre><code>@article{ma2024mfp3d,
-                      title={MFP3D: Monocular Food Portion Estimation Leveraging 3D Point Clouds},
-                      author={Ma, Jinge and Zhang, Xiaoyan and Vinod, Gautham and Raghavan, Siddeshwar and He, Jiangpeng and Zhu, Fengqing},
-                      journal={arXiv preprint arXiv:2411.10492},
-                      year={2024}
-                  }</code></pre>
-                </div>
-            </div>    
-        <br> We propose MFP3D, a new framework for accurate food portion estimation from a single image. It uses 3D reconstruction and feature extraction to estimate food volume and energy content, showing improved accuracy on the MetaFood3D dataset compared to existing approaches.
-      </div> 
-  </div> 
-</div> -->
-
-
-
-
-<!-- <div style="margin-bottom: 3em;"> 
-    <div class="row">
-        <div class="col-sm-3">
-            <img src="assets/img/projects/PRCV2024_Learning_Frequency1.png" class="img-fluid img-thumbnail" alt="Project image">
-        </div>
-        <div class="col-sm-9">
-            <a style="font-weight: bold";>Learning Frequency and Structure in UDA for Medical Object Detection</a>
-            <br>Liwen Wang, <span style="font-weight: bold";>Zhang Xiaoyan</span>, et al.
-            <br><span style="font-style: italic;">Chinese Conference on Pattern Recognition and Computer Vision (PRCV)</span>, 2024
-            <br><a href="https://link.springer.com/chapter/10.1007/978-981-97-8496-7_36" target="_blank">Paper</a>
-          / <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#10.1007/978-981-97-8496-7_36" aria-expanded="false" aria-controls="10.1007/978-981-97-8496-7_36" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button>
-
-          <div class="collapse" id="10.1007/978-981-97-8496-7_36">
-                <div class="card card-body">
-                    <pre><code>@InProceedings{10.1007/978-981-97-8496-7_36, author="Wang, Liwen and Zhang, Xiaoyan and He, Guannan and Tan, Ying and Li, Shengli and Pu, Bin and Jin, Zhe and Sha, Wen and Dong, Xingbo",
-                    editor="Lin, Zhouchen and Cheng, Ming-Ming and He, Ran and Ubul, Kurban and Silamu, Wushouer and Zha, Hongbin and Zhou, Jie and Liu, Cheng-Lin",
-                    title="Learning Frequency and Structure in UDA for Medical Object Detection",
-                    booktitle="Pattern Recognition and Computer Vision",
-                    year="2025",
-                    publisher="Springer Nature Singapore",
-                    address="Singapore",
-                    pages="518--532"
-                    }</code></pre>
-                </div>
-            </div>
-          
-            <br> We proposed a framework for cross-domain imaging structure analysis to address domain gaps between different data sources.
-        </div>
-    </div>
-</div> -->
-
-
-
-
-      
-
- <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
-            <div class="col-sm-12" style="">
-                <h4>Teaching Experience</h4>
-                <ul>
-                    <li><b>24 Fall: ZX52340 Java Technology and Its Application (Practice)</b>, <span style="font-style: italic;">Teaching Assistant</span> <span style="float: right;">Anhui University</span></li>
-                    <li><b>24 Fall: ZJ52014 Introduction of Artificial Intelligence</b>, <span style="font-style: italic;">Teaching Assistant</span> <span style="float: right;">Anhui University</span></li>
-      
-                </ul>
-            </div>
-        </div>
-      
-
-<div class="row" style="margin-top: 3em; margin-bottom: 1em;">          
-  <div class="col-sm-12" style="">
-      <h4>Awards</h4>
-      <ul>
-        <li><b>Outstanding Graduate of Anhui Province</b>, <span style="font-style: italic;">Ministry of Education of Anhui Province</span> <span style="float: right;">2025</span></li>
-         <li><b>National Scholarship</b>, <span style="font-style: italic;">Ministry of Education of the People's Republic of China</span> <span style="float: right;">2024</span></li>
-        <li><b>Pacemaker to Merit Student</b>, <span style="font-style: italic;">Anhui University</span> <span style="float: right;">2022, 2023, 2024</span></li>
-        <li><b>Merit Student</b>, <span style="font-style: italic;">Anhui University</span> <span style="float: right;">2022, 2023, 2024</span></li>
-        <!--         <li><b>Honarable Mentioned</b> in the Interdisciplinary Contest in Modeling, <span style="font-style: italic;">The Consortium for Mathematics and Its Application</span> <span style="float: right;">2024</span></li>
-        <!-- <li><b>Outstanding Mentioned</b> in the Second "Huashu Cup" International Mathematical Contest in Modeling, <span style="font-style: italic;">Big Data and Mathematical Modeling Committee of China Society for Future Studies</span> <span style="float: right;">2024</span></li> --> -->
-        <li><b>Song Qingling Future Scholarship</b> (0.05%), <span style="font-style: italic;">The China Song Qingling Foundation</span> <span style="float: right;">2024</span></li>
-        
-        <!-- <li><b>Provincial Second Prize</b> in China Undergraduate Mathematical Contest in Modeling, <span style="font-style: italic;">China Society for Industrial and Applied Mathematics</span> <span style="float: right;">2024</span></li> -->
-        <li><b>Excellent Student Scholarship</b>, <span style="font-style: italic;">Anhui University</span> <span style="float: right;">2023</span></li>
-<!--         <li><b>Pacemaker to Merit Student</b>, <span style="font-style: italic;">Anhui University</span> <span style="float: right;">2023</span></li> -->
-<!--         <li><b>Merit Student</b>, <span style="font-style: italic;">Anhui University</span> <span style="float: right;">2023</span></li> -->
-        <!-- <li><b>Provincial Silver Award</b> in China International College Students’ Innovation Competition, <span style="font-style: italic;">Ministry of Education of Anhui Province</span> <span style="float: right;">2023</span></li> -->
-<!--         <li><b>Pacemaker to Merit Student</b>, <span style="font-style: italic;">Anhui University</span> <span style="float: right;">2022</span></li> -->
-<!--         <li><b>Merit Student</b>, <span style="font-style: italic;">Anhui University</span> <span style="float: right;">2022</span></li> -->
-        
-        
-
-        
-      </ul>
-  </div>
-
-  
-</div>
-      
-
-      
-
-
-
-       
-
-        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=cdc0b0&w=300&t=tt&d=XsaXIdSbwmNV33O0rzrWJ8b6Pj3KX4m36bLU7Nm9TKM&co=ffffff&cmn=6ca6cd&cmo=828282&ct=363636'></script>
-    
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
-    <footer style="padding-left: 220px;">
-        <p>Visitor Count since 22/09/2024. Thanks for the website template from <a href="https://m-niemeyer.github.io/" target="_blank">Michael Niemeyer</a>. Last updated on 14/03/2026<br>
-        </p>
-    </footer>
+  <footer class="text-center" style="margin-top: 1em; margin-bottom: 2em;">
+    <p>
+      Visitor Count since 22/09/2024. Thanks for the website template from
+      <a href="https://m-niemeyer.github.io/" target="_blank">Michael Niemeyer</a>.
+      Last updated on 14/03/2026.
+    </p>
+  </footer>
 </body>
 
 </html>
-    
